@@ -1,0 +1,34 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables & secrets
+.env
+*.pem
+*.key
+
+# Data & database files (project guideline: do not upload large datasets)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.csv
+*.xlsx
+*.parquet
+*.db
+*.sqlite3
+
+# Python & Jupyter artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
